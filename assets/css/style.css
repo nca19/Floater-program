@@ -1,0 +1,147 @@
+
+
+.primary {
+  border-radius: 20px;
+  padding: 0 50px;
+  height: 40px;
+  color:#020C89;
+  margin-top: 20px;
+  
+}
+.intro-section {
+  position: relative;
+}
+
+.description{
+  color: #fff;
+  padding: 50px 0 60px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  z-index: 50;
+}
+
+.description::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  /* top: 0; */
+  height: 100%;
+  width: 100%;
+  background: #020C89;
+  opacity: 0.8;
+  z-index: -4;
+
+}
+
+.bg-image{
+  background-image: url('../images/startup-team-working-and-planning-in-the-meeting-PYDV7FT.jpg');
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+  
+}
+.skills{
+  
+  height: 200px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: white;
+  color: #020C89;
+  padding-top: 60px;
+  
+
+  
+}
+.types{
+  padding-top: 15px;
+}
+.Take-wrap{
+  background-color:#020C89;
+}
+
+.program{
+  color:white;
+  background-color:#020C89;
+  /*margin-top: 100px;*/
+  padding: 50px 0;
+  
+}
+.activities{
+  border:1px solid white;
+}
+ 
+
+.eligibility{
+  color: #020C89;
+  padding: 50px 0;
+}
+.dates{
+  border:1px solid white;
+  color:#020C89;
+  background-color: white;
+  margin-top: 5px;
+  height: 50px;
+  
+
+}
+.Applications{
+  border:1px solid white;
+  margin-left: -20px;
+  color:#020C89;
+  background-color: white;
+  margin-top: 5px;
+  height: 50px;
+  
+}
+.openings{
+  background-color: #020C89;
+  padding: 50px 0;
+}
+.schedules{
+  color: white;
+  padding-bottom: 20px;
+}
+.lists
+{
+  border: 3px solid white;
+  margin-left: -50px;
+  height: 200px;
+  border-radius: 15px;
+
+
+}
+.during-program{
+  padding-left: 35px;
+}
+.skilltypes{
+  padding-top: 30px;
+}
+.applydates{
+  padding-top: 15px;
+}
+.floater{
+  font-size:30px; 
+}
+.program-image{
+  height: 300px;
+  width: 100%;
+  
+}
+.program-details{
+  padding: 80px 0;
+}
+.details{
+  color: #020C89;
+}
+td{
+  padding:7px 0;
+  color: #020C89;
+  font-size: 20px;
+}
+.required-skills{
+  vertical-align: top;
+}
+

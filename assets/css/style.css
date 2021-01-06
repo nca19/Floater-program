@@ -144,4 +144,15 @@ td{
 .required-skills{
   vertical-align: top;
 }
+@media all and (max-width:500px){
+  .skills{
+    height: 100px;
+    padding-top: 20px;
+    margin-left: -8px;
+  }
+ .lists{
+   height: 250px;
+   margin-top: 10px;
+ }
 
+}

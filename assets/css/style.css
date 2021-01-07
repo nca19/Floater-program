@@ -7,7 +7,7 @@
   color:#020C89;
   margin-top: 20px;
   font-family: 'Kanit', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   
 }
 .intro-section {
@@ -53,12 +53,12 @@
 }
 .skills{
   
-  height: 200px;
+  padding: 90px 0;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: white;
   color: #020C89;
-  padding-top: 60px;
+  
   font-family: 'Kanit', sans-serif;
   
   
@@ -66,11 +66,9 @@
   
 }
 .types{
-  padding-top: 15px;
+  padding: 15px 0;
 }
-.Take-wrap{
-  background-color:#020C89;
-}
+
 
 .program{
   color:white;
@@ -97,9 +95,9 @@
   
 
 }
-.Applications{
+.applications{
   border:1px solid white;
-  margin-left: -20px;
+  margin-left: -24px;
   color:#020C89;
   background-color: white;
   margin-top: 5px;
@@ -116,27 +114,37 @@
 }
 .lists
 {
+  padding: 30px 0;
   border: 3px solid white;
   margin-left: -50px;
-  height: 200px;
   border-radius: 15px;
+  
 
+
+}
+.list{
+  padding: 54px 0;
+  border: 3px solid white;
+  margin-left: -50px;
+  border-radius: 15px;
 
 }
 .during-program{
   padding-left: 35px;
   font-family: 'Kanit', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
+  
 }
+
 .skilltypes{
-  padding-top: 30px;
+  /* padding-top: 30px; */
   font-family: 'Kanit', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
 }
 .applydates{
   padding-top: 15px;
   font-family: 'Kanit', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
 }
 .floater{
   font-size:50px; 
@@ -144,7 +152,7 @@
   font-family: 'Rubik', sans-serif;
 }
 .program-image{
-  height: 300px;
+  
   width: 100%;
   
 }
@@ -159,6 +167,7 @@
 .floater-details{
   color: #020C89;
   font-family: 'Kanit', sans-serif;
+  font-size: 16px;
 
 }
 h2{
@@ -170,20 +179,67 @@ td{
   padding:7px 0;
   color: #020C89;
   font-family: 'Kanit', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
 }
 .required-skills{
   vertical-align: top;
 }
-@media all and (max-width:500px){
-  .skills{
-    height: 100px;
-    padding-top: 20px;
-    margin-left: -8px;
+@media all and (max-width:1000px){
+  /* .skills{
+    padding: 5px 0;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    
   }
  .lists{
-   height: 250px;
-   margin-top: 10px;
+border-radius: 1px;
  }
+ .td{
+   padding: 0 0 15px 0;
+ }
+.Applications{
+  margin-top: 0;
+} */
+
+}
+
+@media all and (max-width:420px){
+  .skills{
+    padding: 5px 0;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    margin:0 -15px;
+    
+  }
+ .lists{
+border-radius: 1px;
+padding: 0 50px;
+margin-left: 30px;
+}
+.list{
+  border-radius: 1px;
+padding: 0 50px;
+margin-left: 30px;
+}
+ .td{
+   padding: 0 0 15px 0;
+ }
+.applications{
+  margin-top: 0;
+}
+.during-program{
+  margin-left: -69px;
+}
+.experience{
+  margin-left: -23px;
+}
+.skilltypes{
+  margin-left: -57px;
+}
+
+.openings{
+  padding: 0;
+}
+  
 
 }

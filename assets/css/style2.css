@@ -1,9 +1,16 @@
+
+
+
 .form-group{
-    padding: 5px;
+    padding: 5px 0;
     color: #32399D;
+    font-family: 'Kanit', sans-serif;
+  font-size: 15px;
 }
 .options{
     color: #32399D;
+    font-family: 'Kanit', sans-serif;
+  font-size: 15px;
     
 }
 @media all and (max-width:500px){

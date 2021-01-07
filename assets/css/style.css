@@ -6,6 +6,8 @@
   height: 40px;
   color:#020C89;
   margin-top: 20px;
+  font-family: 'Kanit', sans-serif;
+  font-size: 15px;
   
 }
 .intro-section {
@@ -18,9 +20,13 @@
   position: absolute;
   width: 100%;
   bottom: 0;
-  z-index: 50;
+  z-index: 50; 
 }
+.floater-disc{
+  font-size: 20px;
+  font-family: 'Kanit', sans-serif;
 
+}
 .description::after{
   content: "";
   position: absolute;
@@ -40,6 +46,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+ 
+
   
   
 }
@@ -51,6 +59,8 @@
   background-color: white;
   color: #020C89;
   padding-top: 60px;
+  font-family: 'Kanit', sans-serif;
+  
   
 
   
@@ -115,15 +125,23 @@
 }
 .during-program{
   padding-left: 35px;
+  font-family: 'Kanit', sans-serif;
+  font-size: 15px;
 }
 .skilltypes{
   padding-top: 30px;
+  font-family: 'Kanit', sans-serif;
+  font-size: 15px;
 }
 .applydates{
   padding-top: 15px;
+  font-family: 'Kanit', sans-serif;
+  font-size: 15px;
 }
 .floater{
-  font-size:30px; 
+  font-size:50px; 
+ 
+  font-family: 'Rubik', sans-serif;
 }
 .program-image{
   height: 300px;
@@ -135,11 +153,24 @@
 }
 .details{
   color: #020C89;
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+}
+.floater-details{
+  color: #020C89;
+  font-family: 'Kanit', sans-serif;
+
+}
+h2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+
 }
 td{
   padding:7px 0;
   color: #020C89;
-  font-size: 20px;
+  font-family: 'Kanit', sans-serif;
+  font-size: 15px;
 }
 .required-skills{
   vertical-align: top;

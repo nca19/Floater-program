@@ -7,7 +7,7 @@
   color:#020C89;
   margin-top: 20px;
   font-family: 'Kanit', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   
 }
 .intro-section {
@@ -42,7 +42,8 @@
 
 .bg-image{
   background-image: url('../images/startup-team-working-and-planning-in-the-meeting-PYDV7FT.jpg');
-  height: 700px;
+   height: 700px; 
+  
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -53,7 +54,7 @@
 }
 .skills{
   
-  padding: 90px 0;
+  padding: 74px 0;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: white;
@@ -114,7 +115,7 @@
 }
 .lists
 {
-  padding: 30px 0;
+  padding: 8px 0;
   border: 3px solid white;
   margin-left: -50px;
   border-radius: 15px;
@@ -123,7 +124,7 @@
 
 }
 .list{
-  padding: 54px 0;
+  padding: 30px 0;
   border: 3px solid white;
   margin-left: -50px;
   border-radius: 15px;
@@ -132,19 +133,19 @@
 .during-program{
   padding-left: 35px;
   font-family: 'Kanit', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   
 }
 
 .skilltypes{
   /* padding-top: 30px; */
   font-family: 'Kanit', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 .applydates{
   padding-top: 15px;
   font-family: 'Kanit', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 .floater{
   font-size:50px; 
@@ -153,7 +154,7 @@
 }
 .program-image{
   
-  width: 100%;
+  width: 100%; 
   
 }
 .program-details{
@@ -167,7 +168,7 @@
 .floater-details{
   color: #020C89;
   font-family: 'Kanit', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 
 }
 h2{
@@ -179,28 +180,10 @@ td{
   padding:7px 0;
   color: #020C89;
   font-family: 'Kanit', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 .required-skills{
   vertical-align: top;
-}
-@media all and (max-width:1000px){
-  /* .skills{
-    padding: 5px 0;
-    border-top-right-radius: 1px;
-    border-bottom-right-radius: 1px;
-    
-  }
- .lists{
-border-radius: 1px;
- }
- .td{
-   padding: 0 0 15px 0;
- }
-.Applications{
-  margin-top: 0;
-} */
-
 }
 
 @media all and (max-width:420px){
@@ -214,18 +197,25 @@ border-radius: 1px;
  .lists{
 border-radius: 1px;
 padding: 0 50px;
-margin-left: 30px;
+margin-left: 35px;
+margin-top: -3px;
 }
 .list{
   border-radius: 1px;
 padding: 0 50px;
-margin-left: 30px;
+margin-left: 35px;
+margin-top: -3px;
 }
  .td{
    padding: 0 0 15px 0;
  }
 .applications{
-  margin-top: 0;
+  margin-top: -2px;
+  margin-left: 0;
+
+}
+.primary{
+  margin-bottom: 20px;
 }
 .during-program{
   margin-left: -69px;
@@ -235,11 +225,60 @@ margin-left: 30px;
 }
 .skilltypes{
   margin-left: -57px;
+  margin-top: 8px;
 }
 
 .openings{
   padding: 0;
 }
+.floater-details{
+  margin-left: 21px;
   
+}  
 
+}
+/* faq section*/
+
+
+.font-gotham {
+  font-family: gotham;
+  letter-spacing: 1px;
+  padding: 50px 0 0px;
+}
+
+.font-gotham-medium {
+  font-family: gotham-medium;
+  letter-spacing: 1px;
+}
+
+h2.heading {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10px !important;
+}
+
+.margin-bottom-50 {
+  margin-bottom: 50px;
+}
+
+.text-blue, .text-blue:hover{
+  color: #32399D;
+  
+}
+.panel-title {
+  position: relative;
+}
+.panel-title {
+  font-weight: bold;
+}
+.panel-title::after{
+    content: "\2193";
+    color: #333;
+    top: -2px;
+    right: 0px;
+    position: absolute;
+    font-family: 'Glyphicons Halflings';
 }

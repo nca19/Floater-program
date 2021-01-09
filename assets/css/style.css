@@ -154,7 +154,8 @@
 }
 .program-image{
   
-  width: 100%; 
+  width: 100%;
+   
   
 }
 .program-details{
@@ -234,7 +235,19 @@ margin-top: -3px;
 .floater-details{
   margin-left: 21px;
   
-}  
+} 
+.program-image{
+  
+  width: 100%;
+  padding: 2px; 
+  
+} 
+.description{
+  padding: 0;
+}
+.section-padding {
+  padding: 50px 0;
+}
 
 }
 /* faq section*/
@@ -243,7 +256,7 @@ margin-top: -3px;
 .font-gotham {
   font-family: gotham;
   letter-spacing: 1px;
-  padding: 50px 0 0px;
+  /* padding: 50px 0 0px; */
 }
 
 .font-gotham-medium {
@@ -281,4 +294,7 @@ h2.heading {
     right: 0px;
     position: absolute;
     font-family: 'Glyphicons Halflings';
+}
+.section-padding {
+  padding: 100px 0;
 }
